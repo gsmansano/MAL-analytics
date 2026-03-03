@@ -16,7 +16,7 @@ clean-targets:
 
 models:
   mal_analytics:
-    bronze:
+    staging:
       +materialized: view
-    silver:
+    marts:
       +materialized: table

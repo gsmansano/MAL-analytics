@@ -11,12 +11,15 @@ final as (
         title_default,
         media_type,     -- could not be here and receive its own table
         airing_status,  -- same
+        anime_source,
+        episodes,
         release_year,   -- same
-        score,
-        scored_by,
-        rank,
-        popularity,
-        rating          -- same
+        episodes,
+        season,
+        rating,         -- same
+        synopsis,
+        image_url
+        
     from staging
 )
 

@@ -8,7 +8,7 @@ renamed as (
         -- some cleaning/adjustments to the table
 
         cast(mal_id as integer) as mal_id,
-
+        -- note to self: create anime_id here and refactor the dims/fcts
         title as title_default,
         type as media_type,
         status as airing_status,
