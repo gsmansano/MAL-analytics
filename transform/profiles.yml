@@ -1,0 +1,6 @@
+mal_analytics_profile:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/mal_data.duckdb
