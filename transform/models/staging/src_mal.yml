@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    schema: main
+    tables:
+      - name: raw_anime
+        identifier: raw_anime_2026_03_02 # this needs to be changed if table is updated
