@@ -23,3 +23,11 @@ I am implementing a **Medallion Architecture** to ensure data quality and scalab
 3.  **Gold (Mart):** Final business-ready tables optimized for visualization (e.g., "Top Performing Genres by Decade").
 
 ---
+
+## 📊 Analytical Insights (The Four Pillars)
+The engineering work in this repository enables a deep-dive analysis into the anime market through four distinct lenses:
+
+1. **The Value Gap:** Identifying "Hidden Gems" by calculating the delta between a title's Quality Rank (Score) and its Popularity Rank.
+2. **Historical Trends:** Analyzing the "Production Boom" (1990–2025) to see how the industry scaled volume without sacrificing average quality.
+3. **Studio Performance:** Benchmarking the "Brand Power" of major studios vs. niche producers to see who effectively "owns" audience attention.
+4. **The Loyalty Funnel:** Calculating conversion rates from casual "Members" to "Advocates" (Favorites) across different media formats.
